@@ -1,0 +1,48 @@
+.headerbox{
+	width: 100%;
+	height: 110px;
+	background-color: #2F60AE;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+.footerbox{
+	width: 100%;
+	height: 70px;
+	background-color: #0B2161;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+	font-size: 13px;
+}
+
+#list{
+	width: 100%;
+	height: 5px;
+	background-color: #FFBF00;
+	margin-top: 110px;
+	position: fixed;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 14px;
+}
+
+a:hover{
+	text-decoration: none;
+	color:#FFBF00;
+}
+
+#textheader{
+	padding-top:-100px;
+	padding-left:20px;
+	font-size: 16px;
+}
+

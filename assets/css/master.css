@@ -1,0 +1,78 @@
+body{
+  background: #205E32;
+}
+
+.jumbotron{
+    height: 100% !important;
+}
+
+footer{
+  color: white;
+}
+
+b{
+  color: #205E32;
+}
+
+.warna-link{
+  color: white;
+}
+
+.warna-home{
+  color: #98999B;
+}
+
+.warna-home:hover{
+  color: #98999B;
+  text-decoration: none;
+}
+
+.warna-link:hover{
+  color: #DEDEDE;
+  text-decoration: none;
+}
+
+.gambar-icon:hover{
+  opacity: 0.5;
+}
+
+.bungkus-gambar{
+  width: 100%;
+  margin: 1em;
+}
+.gambar{
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.isi{
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.bungkus-gambar:hover .gambar{
+  opacity: .3;
+}
+.bungkus-gambar:hover .isi{
+  opacity: 1;
+}
+
+ul.dropdown-lr {
+  width: 300px;
+}
+
+@media (max-width: 768px) {
+	.dropdown-lr h3 {
+		color: #eee;
+	}
+	.dropdown-lr label {
+		color: #eee;
+	}
+}

@@ -1,0 +1,15 @@
+#headerbox{
+	width: 100px;
+	height: 140px;
+	background-color: #2F60AE;
+	margin-top: -8px;
+	margin-left: -8px;
+}
+
+#footerbox{
+	width: 100px;
+	height: 140px;
+	background-color: #0B2161;
+	margin-top: -8px;
+	margin-left: -8px;
+}
